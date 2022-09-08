@@ -18,13 +18,14 @@ $usuario->telefone = "13 98118-4776";
 $usuario->email = "angelo_rafael_dos_santos@hotmail.com";
 
 
-echo "<div><strong> Dados do Usuario</strong></div>";
+echo "<div><strong> Dados do Usuario</strong>";
 echo "<br>Codigo: ".$usuario->codigo;
 echo "<br>Nome: ".$usuario->nome;
 echo "<br>Cpf: ".$usuario->cpf;
 echo "<br>Endereco: ".$usuario->endereco;
 echo "<br>Telefone: ".$usuario->telefone;
 echo "<br>Email: ".$usuario->email;
+echo "</div>";
 
 class produto{
 	public $codigo;
@@ -43,11 +44,12 @@ $produto->valorCusto = "11";
 $produto->valorVenda = "15";
 $produto->quantidade = "20";
 
-echo "<br><br><div><strong> Dados do Produto</strong></div>";
+echo "<br><div><strong> Dados do Produto</strong>";
 echo "<br>Codigo: ".$produto->codigo;
 echo "<br>Descrição do produto: ".$produto->descricao;
 echo "<br>Valor de custo: ".$produto->valorCusto;
 echo "<br>Valor de Venda: ".$produto->valorVenda;
 echo "<br>Quantidade do produto: ".$produto->quantidade;
+echo "</div>";
 
 ?>
